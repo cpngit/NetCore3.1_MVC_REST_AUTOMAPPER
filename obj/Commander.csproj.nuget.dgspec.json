@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\S3\\E2\\Commander\\Commander.csproj": {}
+    "C:\\cpngit\\NetCore3.1_MVC_REST_AUTOMAPPER\\Commander.csproj": {}
   },
   "projects": {
-    "D:\\S3\\E2\\Commander\\Commander.csproj": {
+    "C:\\cpngit\\NetCore3.1_MVC_REST_AUTOMAPPER\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\S3\\E2\\Commander\\Commander.csproj",
+        "projectUniqueName": "C:\\cpngit\\NetCore3.1_MVC_REST_AUTOMAPPER\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "D:\\S3\\E2\\Commander\\Commander.csproj",
-        "packagesPath": "C:\\Users\\lesja\\.nuget\\packages\\",
-        "outputPath": "D:\\S3\\E2\\Commander\\obj\\",
+        "projectPath": "C:\\cpngit\\NetCore3.1_MVC_REST_AUTOMAPPER\\Commander.csproj",
+        "packagesPath": "C:\\Users\\cassionunes\\.nuget\\packages\\",
+        "outputPath": "C:\\cpngit\\NetCore3.1_MVC_REST_AUTOMAPPER\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\lesja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cassionunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/COFCOInternational/_packaging/CIL/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -69,7 +70,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[5.3.3, )"
             }
           },
           "imports": [
