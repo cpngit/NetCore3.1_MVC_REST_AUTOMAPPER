@@ -42,7 +42,6 @@ namespace Commander
 
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
 
-            //ADDED AFTER TUTORIAL
             services.AddSwaggerGen(c=> {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Commander API", Version = "v1" });
             });
@@ -52,10 +51,8 @@ namespace Commander
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            //ADDED AFTER TUTORIAL
             app.UseSwagger();
 
-            //ADDED AFTER TUTORIAL
             app.UseSwaggerUI( c=> {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Commander API V1");
             });
